@@ -1,7 +1,7 @@
-# Analisa Pengaruh Harga Pakan Terhadap Produksi Peternakan
+# Analisis Klaster Provinsi Berdasarkan Produksi Komoditas Peternakan
 
 ## Project Information
-- **Project Name:** Analisa Pengaruh Harga Pakan Terhadap Produksi Peternakan  
+- **Project Name:** Analisis Klaster Provinsi Berdasarkan Produksi Komoditas Peternakan  
 - **Created By:** Data Engineering Team 7  
 - **Date:** 17 February 2026  
 - **Version:** 1.0  
@@ -13,20 +13,20 @@
 ## 1.1 Project Overview
 
 ### Tujuan Project
-Mengidentifikasi faktor-faktor yang memengaruhi hasil ternak seperti produksi, pakan, lingkungan, kandang, serta harga ternak. Project ini berfokus pada analisis hubungan antara harga pakan dengan tingkat produksi peternakan.
+Mengidentifikasi pola pengelompokan provinsi berdasarkan tingkat produksi komoditas peternakan (daging ayam, sapi, kambing, kerbau, telur, dan susu) di Indonesia pada tahun 2021–2022.
 
 ### Scope Project
 Project ini mencakup:
-- Pengambilan data biaya usaha peternakan dari laporan resmi pemerintah.
-- Pengolahan data produksi peternakan dari dataset publik.
-- Analisis korelasi antara harga pakan dan produksi peternakan.
-- Pembuatan model prediksi produksi peternakan.
-- Visualisasi data dalam bentuk dashboard analitik.
+- Pengumpulan data produksi 6 komoditas peternakan (daging ayam, sapi, kambing, kerbau, telur, susu) per provinsi tahun 2021–2022.
+- Pembersihan dan transformasi data (ETL) untuk menyiapkan data siap analisis.
+- Penerapan metode klasterisasi (misalnya K-Means atau Hierarchical Clustering) untuk mengelompokkan provinsi berdasarkan tingkat produksi.
+- Interpretasi hasil klaster untuk mengidentifikasi provinsi dengan produksi tinggi, sedang, dan rendah.
+- Visualisasi hasil dalam bentuk peta klaster, diagram batang.
 
 ### Expected Outcomes
-- Analisis korelasi antara harga pakan dan produksi peternakan.
-- Model prediksi produksi ternak berdasarkan faktor pakan.
-- Dashboard visualisasi tren produksi dan harga peternakan.
+- Pengelompokan Provinsi (Klaster)
+- Profil Produksi per Provinsi
+- Visualisasi Peta Klaster dan dashboard
 
 ### Timeline
 Durasi proyek: **3 bulan (Februari – April 2026)**
